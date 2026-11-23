@@ -1,0 +1,55 @@
+/* Design tokens. Direction: editorial / literary. Warm paper, ink, forest green, brass for VIP. */
+:root {
+  /* colour: text pairs below all clear 4.5:1 on their usual background */
+  --paper: #f5efe3;
+  --surface: #fffdf8;
+  --ink: #1e1a16;
+  --ink-soft: #4a433a;
+  --muted: #5f574c;
+  --line: #e0d6c3;
+  --line-strong: #c6b9a0;
+
+  --green: #1f5d50;
+  --green-dark: #153f36;
+  --green-tint: #e2eee8;
+  --wine: #8c2f39;
+  --brass: #7a5a0f;
+  --brass-tint: #f4e8c4;
+  --gold: #a97a0a;
+  --ok: #1d6a44;
+  --ok-tint: #e1f0e6;
+  --warn: #7d5200;
+  --warn-tint: #fbefd2;
+  --error: #a12b2b;
+  --error-tint: #f9e3df;
+
+  /* type */
+  --font-display: 'Cormorant Garamond', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  --font-body: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-h3: clamp(1.35rem, 1.2rem + 0.6vw, 1.7rem);
+  --text-h2: clamp(1.9rem, 1.5rem + 1.6vw, 2.75rem);
+  --text-h1: clamp(2.6rem, 1.5rem + 4.4vw, 5rem);
+
+  /* spacing rhythm (deliberately uneven: tight inside, generous between sections) */
+  --s-1: 0.25rem; --s-2: 0.5rem; --s-3: 0.75rem; --s-4: 1rem; --s-5: 1.5rem;
+  --s-6: 2rem; --s-7: 3rem; --s-8: 4.5rem;
+  --section: clamp(3rem, 2rem + 5vw, 6.5rem);
+  --gutter: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+  --max: 1280px;
+
+  /* shape + depth */
+  --r-sm: 6px; --r-md: 12px; --r-lg: 20px;
+  --shadow-1: 0 1px 2px rgb(30 26 22 / 0.08), 0 2px 6px rgb(30 26 22 / 0.05);
+  --shadow-2: 0 4px 10px rgb(30 26 22 / 0.1), 0 12px 28px rgb(30 26 22 / 0.1);
+  --shadow-3: 0 10px 20px rgb(30 26 22 / 0.14), 0 28px 56px rgb(30 26 22 / 0.18);
+
+  /* motion */
+  --fast: 150ms; --base: 220ms;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* z-index scale */
+  --z-header: 20; --z-toast: 50; --z-dialog: 60;
+}
